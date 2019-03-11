@@ -4752,8 +4752,6 @@ section.cta-ind-blocks {
 
 .emergency-banner {
   display: flex;
-  margin-left: 3rem;
-  margin-right: 0.7rem;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -4762,9 +4760,8 @@ section.cta-ind-blocks {
   max-width: 924px;
   margin: 0 auto;
   border: 1px solid #2d5ccd;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
+  margin: 1.5rem 0.7rem 1.5rem 3rem;
+ }
 
 .emergency-banner button {
     width: 100%;
@@ -4894,7 +4891,6 @@ section.single-ind-service {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
-
 
 section.dependable-repair-section {
     display: flex;
