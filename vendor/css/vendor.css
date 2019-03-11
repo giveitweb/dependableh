@@ -1,0 +1,142 @@
+.slick-slider{
+    display:flex;
+    box-sizing:border-box;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-touch-callout:none;
+    -khtml-user-select:none;
+    -ms-touch-action:pan-y;
+    touch-action:pan-y;
+    -webkit-tap-highlight-color:transparent;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    vertical-align:middle;
+    padding:.5rem;
+    height:100%
+}
+.slick-list{
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    display:inline
+}
+.slick-list:focus{
+    outline:0
+}
+.slick-list.dragging{
+    cursor:pointer;
+    cursor:hand
+}
+.slick-slider .slick-track,.slick-slider .slick-list{
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0)
+}
+.slick-track{
+    position:relative;
+    top:0;
+    left:0;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align:middle;
+    align-items:center;
+    justify-content:center
+}
+.slick-track:before,.slick-track:after{
+    display:table;
+    content:''
+}
+.slick-track:after{
+    clear:both
+}
+.slick-loading .slick-track{
+    visibility:hidden
+}
+.slick-prev,.slick-next{
+    height:50px;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    vertical-align:middle;
+    justify-content:center;
+    align-items:center
+}
+.slick-slide{
+    display:none;
+    float:left;
+    height:100%;
+    min-height:1px;
+    display:flex
+}
+[dir='rtl'] .slick-slide{
+    float:right
+}
+.slick-slide img{
+    display:block;
+    height:100%
+}
+.slick-slide.slick-loading img{
+    display:none
+}
+.slick-slide.dragging img{
+    pointer-events:none
+}
+.slick-initialized .slick-slide{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    vertical-align:middle;
+    justify-content:center;
+    height:100%;
+}
+.slick-loading .slick-slide{
+    visibility:hidden
+}
+
+.slick-arrow.slick-hidden{
+    display:none
+}
+
+@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.01);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.01);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
