@@ -31,10 +31,6 @@
 }
 
 @media (max-width: 880px){
-  .menutop-items{
-    display: grid;
-    grid-template-columns: 1fr;
-  }
   .menutop-items ul{
     flex-direction: column;
 max-width: 80%;
