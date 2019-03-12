@@ -208,7 +208,7 @@ button::-moz-focus-inner,
 }
 
 .block{
-    display: block;
+    display: block !important;
 }
 
 p{
@@ -570,7 +570,7 @@ nav button{
   align-items: center;
   vertical-align: middle;
   font-size: 0.65rem;
-  background: #f3d047;
+  background: #FFFD38;
   color: #04151fe6;
   font-weight: 600;
 }
@@ -972,7 +972,7 @@ section.so-california-trusted {
 
 .so-california-trusted-item {
     padding: 2rem;
-    padding-right: 1.4rem;
+    padding-right: 1.4rem !important;
     padding-left: 3rem;
     background-color: #020248;
     -webkit-transition: background 0.3s, border 0.3s, border-radius 0.3s, -webkit-box-shadow 0.3s;
@@ -1918,7 +1918,7 @@ button.button-repair {
 }
 
 button.button-schedule {
-    background: #33cc99;
+    background: #33cc99 !important;
     color: white;
 }
 
@@ -4752,6 +4752,8 @@ section.cta-ind-blocks {
 
 .emergency-banner {
   display: flex;
+  margin-left: 3rem;
+  margin-right: 0.7rem;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -4760,8 +4762,9 @@ section.cta-ind-blocks {
   max-width: 924px;
   margin: 0 auto;
   border: 1px solid #2d5ccd;
-  margin: 1.5rem 0.7rem 1.5rem 3rem;
- }
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
 
 .emergency-banner button {
     width: 100%;
@@ -4891,6 +4894,43 @@ section.single-ind-service {
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+
+.the-difference {
+    padding: 2rem 4rem 0;
+    background: white;
+}
+
+.the-difference-title {
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.the-difference-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    padding-top: 2rem;
+    grid-gap: 25px;
+}
+
+.the-difference-single {
+    padding: 0 2rem 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.the-difference svg {
+    max-width: 60px;
+}
+
+.the-difference-single h1 {
+    font-size: 1.2rem;
+}
+
 
 section.dependable-repair-section {
     display: flex;
