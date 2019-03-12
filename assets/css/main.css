@@ -570,7 +570,7 @@ nav button{
   align-items: center;
   vertical-align: middle;
   font-size: 0.65rem;
-  background: #FFFD38;
+  background: #f3d047;
   color: #04151fe6;
   font-weight: 600;
 }
@@ -2842,7 +2842,7 @@ section.fix-it-right{
   font-size: 1.6rem;
   background-image: -webkit-linear-gradient(transparent calc(100% - 18px), #F7FE66 10px);
   background-image: -o-linear-gradient(transparent calc(100% - 18px), #F7FE66 10px);
-  background-image: linear-gradient(transparent calc(100% - 18px), #F7FE66 10px);
+  background-image: linear-gradient(transparent calc(100% - 18px), #FFFD38 10px);
   background-repeat: no-repeat;
   background-size: 100% 94%;
   color: #001855;
